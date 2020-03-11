@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <h1 class="text-center">La répartition (Spread)</h1>
+  <p>
+    Répartition des éléments d'une collection itérable 
+    (comme un tableau ou même une chaîne) en éléments littéraux 
+    et en paramètres de fonction individuels.
+<ul class="fa-ul">
+  <li class="blink-item">
+    <h6>Copie d'un tableau</h6>
+    <textarea class="myCode">
+  const t1 = [1, 3, 4, 6];
+  const t2 = [...t1];</textarea>
+  </li>
+  <li class="blink-item">
+    <h6>Copie  an ajoutant plusieurs éléments</h6>
+    <textarea class="myCode">
+  const t3 = [1, 3, 4, 6];
+  const t4 = [77, ...t3, true];</textarea>
+  </li>
+  <li class="blink-item">
+    <h6>En argument à une fonction</h6>
+    <textarea class="myCode">
+  const t5 = [1, 3, 4, 6];
+  const min = Math.min(...t5);</textarea>
+  </li>
+  
+  
+  
+</ul>
+</p>
+</div>

@@ -1,18 +1,28 @@
-<div class="container">
-    <h1>Additional Resources</h1>
-    <ul class="list-group">
-        <li class="list-group-item">
-            <a href="https://github.com/daaif/slides" target="_blank">Github repository </a>
-        </li>
-        <li class="list-group-item">
-            <h2>who am I</h2> 
-            <p><kbd>Aziz DAAIF</kbd></p>
-            <p>Teacher researcher at  ENSET Mohammedia</p>
-            <p>Hassan II University of Casablanca</p>
-        </li>
-        <li class="list-group-item">
-            <h2>Licence</h2>
-            <p><kbd>MIT</kbd></p>
-        </li>
-    </ul>
+<div class="container-fluid">
+  <h1 class="text-center">Arrow functions</h1>
+  <p>
+<ul class="fa-ul">
+  <li class="blink-item"><h3>Avec plusieurs arguments</h3>
+    <textarea class="myCode">
+  /*  (x, y) -> arguments de la fonction, 
+      x * y -> corps de la fonction 1 seule instruction
+      Retourne implicitement le résultat de l'instruction. 
+  */ 
+  const mul = (x, y) => x * y;
+  mul(10, 10) /* retourne 100 */;
+</textarea>
+  </li>
+  <li class="blink-item"><h3>Utilisation comme argument </h3>
+    <textarea class="myCode">
+  /*  
+    Array.forEach( f ); la fonction f est appelée 
+    pour chacun des éléments du tableau.  
+  */ 
+  [1, 2, 3, 4].forEach( e => console.log(e) );
+  </textarea>
+  </li>
+  
+  
+</ul>
+</p>
 </div>

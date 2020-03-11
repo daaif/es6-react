@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <h1 class="text-center big3">Les classes</h1>
+  <p>
+<ul class="fa-ul">
+  <li class="blink-item small">
+    <h4>L'Héritage</h4>
+    <textarea class="myCode">
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+    sayHello() {
+      return "Hello " + this.name + "!";
+    }
+  }
+  class Employee extends Person {
+    constructor(name, id){
+      super(name);
+      this.id = id;
+    }
+    toString(){
+      return 'Employee ' + this.name + ' (' + this.id + ')';
+    }
+  }</textarea>
+  </li>
+  
+</ul>
+</p>
+</div>
